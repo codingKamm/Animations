@@ -14,6 +14,7 @@
 		694AA1842B097AAB000B584F /* AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA1832B097AAB000B584F /* AnimationsTests.swift */; };
 		694AA18E2B097AAB000B584F /* AnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA18D2B097AAB000B584F /* AnimationsUITests.swift */; };
 		694AA1902B097AAB000B584F /* AnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA18F2B097AAB000B584F /* AnimationsUITestsLaunchTests.swift */; };
+		694AA19D2B097B27000B584F /* PracticeAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA19C2B097B27000B584F /* PracticeAnimating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		694AA1892B097AAB000B584F /* AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694AA18D2B097AAB000B584F /* AnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITests.swift; sourceTree = "<group>"; };
 		694AA18F2B097AAB000B584F /* AnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		694AA19C2B097B27000B584F /* PracticeAnimating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAnimating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				694AA1722B097AAA000B584F /* AnimationsApp.swift */,
 				694AA1742B097AAA000B584F /* ContentView.swift */,
+				694AA19C2B097B27000B584F /* PracticeAnimating.swift */,
 				694AA1762B097AAB000B584F /* Assets.xcassets */,
 				694AA1782B097AAB000B584F /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				694AA1752B097AAA000B584F /* ContentView.swift in Sources */,
 				694AA1732B097AAA000B584F /* AnimationsApp.swift in Sources */,
+				694AA19D2B097B27000B584F /* PracticeAnimating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
