@@ -10,7 +10,7 @@ import SwiftUI
 struct AnimatingGesturesView: View {
     @State private var enable = false
     @State private var animationAmount = 0.0
-    let letters = Array("Insert Remark")
+    let letters = Array("Drag Me")
     @State private var dragAmount = CGSize.zero
     
     var body: some View {
@@ -36,7 +36,7 @@ struct AnimatingGesturesView: View {
                         Text(String(letters[num]))
                             .padding(5)
                             .font(.title)
-                            .background(enable ? .blue : .red)
+                            .background(enable ? .red : .blue)
                             .offset(dragAmount)
                             .animation(.linear.delay(Double(num) / 20), value: dragAmount)// animates array of letters
                     }
