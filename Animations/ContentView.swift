@@ -30,10 +30,8 @@ struct ContentView: View {
             //  If we skewer the view through the Z axis (depth) then it will be able to rotate left and right.
             .clipShape(.rect(cornerRadius: enable ? 60 : 0))
             .animation(.spring(duration: 1, bounce: 0.6), value: enable)
-           
-           
+            
         }
-
 
     }
 }
@@ -41,3 +39,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+// for more animation features try https://www.hackingwithswift.com/books/ios-swiftui/animating-gestures
