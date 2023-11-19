@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var animationAmount = 0.0
-    @State private var enable = false
+    @State private var enable = false 
     
     var body: some View {
         VStack {
