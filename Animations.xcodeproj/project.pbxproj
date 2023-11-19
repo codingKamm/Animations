@@ -17,6 +17,8 @@
 		694AA19D2B097B27000B584F /* PracticeAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA19C2B097B27000B584F /* PracticeAnimating.swift */; };
 		694AA19F2B09ABF0000B584F /* AnimationBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA19E2B09ABF0000B584F /* AnimationBindingView.swift */; };
 		694AA1A12B0A9DC8000B584F /* AnimatingGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA1A02B0A9DC8000B584F /* AnimatingGesturesView.swift */; };
+		694AA1A32B0AA09F000B584F /* AnimationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA1A22B0AA09F000B584F /* AnimationButtonView.swift */; };
+		694AA1A52B0AA377000B584F /* TransitionsAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA1A42B0AA377000B584F /* TransitionsAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		694AA19C2B097B27000B584F /* PracticeAnimating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAnimating.swift; sourceTree = "<group>"; };
 		694AA19E2B09ABF0000B584F /* AnimationBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindingView.swift; sourceTree = "<group>"; };
 		694AA1A02B0A9DC8000B584F /* AnimatingGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGesturesView.swift; sourceTree = "<group>"; };
+		694AA1A22B0AA09F000B584F /* AnimationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationButtonView.swift; sourceTree = "<group>"; };
+		694AA1A42B0AA377000B584F /* TransitionsAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				694AA1722B097AAA000B584F /* AnimationsApp.swift */,
 				694AA1742B097AAA000B584F /* ContentView.swift */,
+				694AA1A42B0AA377000B584F /* TransitionsAnimationView.swift */,
+				694AA1A22B0AA09F000B584F /* AnimationButtonView.swift */,
 				694AA1A02B0A9DC8000B584F /* AnimatingGesturesView.swift */,
 				694AA19C2B097B27000B584F /* PracticeAnimating.swift */,
 				694AA19E2B09ABF0000B584F /* AnimationBindingView.swift */,
@@ -267,9 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				694AA1752B097AAA000B584F /* ContentView.swift in Sources */,
+				694AA1A32B0AA09F000B584F /* AnimationButtonView.swift in Sources */,
 				694AA1732B097AAA000B584F /* AnimationsApp.swift in Sources */,
 				694AA19D2B097B27000B584F /* PracticeAnimating.swift in Sources */,
 				694AA19F2B09ABF0000B584F /* AnimationBindingView.swift in Sources */,
+				694AA1A52B0AA377000B584F /* TransitionsAnimationView.swift in Sources */,
 				694AA1A12B0A9DC8000B584F /* AnimatingGesturesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
