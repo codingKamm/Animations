@@ -16,6 +16,7 @@
 		694AA1902B097AAB000B584F /* AnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA18F2B097AAB000B584F /* AnimationsUITestsLaunchTests.swift */; };
 		694AA19D2B097B27000B584F /* PracticeAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA19C2B097B27000B584F /* PracticeAnimating.swift */; };
 		694AA19F2B09ABF0000B584F /* AnimationBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA19E2B09ABF0000B584F /* AnimationBindingView.swift */; };
+		694AA1A12B0A9DC8000B584F /* AnimatingGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA1A02B0A9DC8000B584F /* AnimatingGesturesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		694AA18F2B097AAB000B584F /* AnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		694AA19C2B097B27000B584F /* PracticeAnimating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAnimating.swift; sourceTree = "<group>"; };
 		694AA19E2B09ABF0000B584F /* AnimationBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindingView.swift; sourceTree = "<group>"; };
+		694AA1A02B0A9DC8000B584F /* AnimatingGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGesturesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				694AA1722B097AAA000B584F /* AnimationsApp.swift */,
 				694AA1742B097AAA000B584F /* ContentView.swift */,
+				694AA1A02B0A9DC8000B584F /* AnimatingGesturesView.swift */,
 				694AA19C2B097B27000B584F /* PracticeAnimating.swift */,
 				694AA19E2B09ABF0000B584F /* AnimationBindingView.swift */,
 				694AA1762B097AAB000B584F /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 				694AA1732B097AAA000B584F /* AnimationsApp.swift in Sources */,
 				694AA19D2B097B27000B584F /* PracticeAnimating.swift in Sources */,
 				694AA19F2B09ABF0000B584F /* AnimationBindingView.swift in Sources */,
+				694AA1A12B0A9DC8000B584F /* AnimatingGesturesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
